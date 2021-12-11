@@ -1,0 +1,46 @@
+void arrows(){
+  textSize(30);
+  fill(0,0,200);
+  beginShape();
+  vertex(40,0);
+  vertex(0,20);
+  vertex(40,40);
+  endShape(CLOSE);
+  beginShape();
+  vertex(width-40,0);
+  vertex(width,20);
+  vertex(width-40,40);
+  endShape(CLOSE);
+  text(a,width/2-15,40);
+  
+  fill(0,200,0);
+  beginShape();
+  vertex(40,50);
+  vertex(0,70);
+  vertex(40,90);
+  endShape(CLOSE);
+  beginShape();
+  vertex(width-40,50);
+  vertex(width,70);
+  vertex(width-40,90);
+  endShape(CLOSE);
+  text(b,width/2-15,90);
+  fill(200,0,0);
+  beginShape();
+  vertex(40,100);
+  vertex(0,120);
+  vertex(40,140);
+  endShape(CLOSE);
+  beginShape();
+  vertex(width-40,100);
+  vertex(width,120);
+  vertex(width-40,140);
+  endShape(CLOSE);
+  text(c,width/2-15,140);
+  
+  fill(150);
+  rect(0,150,width,40);
+  fill(0);
+  textSize(30);
+  text("start",65,178);
+}
